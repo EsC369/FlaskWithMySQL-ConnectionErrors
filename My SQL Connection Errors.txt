@@ -1,0 +1,20 @@
+config = {
+                'host': 'localpost',
+                'database': db, # we got db as an argument
+                'user': 'groot',
+                'password': 'groot',
+                'p
+	}
+
+errors: wrong host data base user password and port.
+Fixed by plugging in proper data
+
+fixed:
+'host': 'localhost',
+                'database': db, # we got db as an argument
+                'user': 'root',
+                'password': 'root',
+                'port': '3306'
+
+
+Literally the most stupid and pointless assignment thus far!
